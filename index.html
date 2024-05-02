@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+
+<body class="bg-[url(images/bg-pattern.svg)] bg-no-repeat object-cover font-[Manrope] bg-[#f9faff]">
+  <div class="relative mt-24">
+    <img src="images/pattern-circles.svg" alt=""
+      class="absolute left-[50%] translate-x-[-50%] top-[50%] translate-y-[-43%]">
+    <p class="text-center font-[800] text-[1.3rem] min-[420px]:text-[1.8rem] mb-2">Simple, traffic-based pricing</p>
+    <p class="text-center font-[600] text-[#8c93a7] text-[0.9rem]">Sign-up for our 30-day trial.<br
+        class="min-[420px]:hidden"> No credit card required.
+    </p>
+  </div>
+  <div class="bg-[#ffffff] my-20 pb-[2rem] mx-6 px-6 rounded-xl max-w-[550px] min-[550px]:mx-auto min-[550px]:px-10">
+    <p
+      class="text-center text-[#868ea7] uppercase font-[800] tracking-widest pt-10 min-[550px]:inline-block min-[550px]:relative min-[550px]:top-[-0.5rem]">
+      <span>100k
+      </span>Pageviews
+    </p>
+    <p
+      class="text-center text-[#969db2] max-[550px]:hidden min-[550px]:inline-block min-[550px]:pl-[20%] min-[550px]:pt-[2rem]">
+      <span class="text-[#283354] text-[2.5rem] font-[800]">$16.00</span>
+      <span class="relative top-[-0.4rem]">/month</span>
+    </p>
+    <input type="range" title="slider" class="w-[100%] my-6 min-[550px]:mb-0">
+    <p class="text-center text-[#969db2] min-[550px]:hidden"><span
+        class="text-[#283354] text-[2.5rem] font-[800]">$16.00</span>
+      <span class="relative top-[-0.4rem]">/month</span>
+    </p>
+    <div
+      class="flex flex-row place-content-center my-8 border-b-[1px] border-b-[#edf0f7] pb-8 w-[calc(3rem+100%)] relative left-[-1.5rem] min-[550px]:left-[-2.5rem] min-[550px]:w-[calc(5rem+100%)]">
+      <div class="text-[#9c9fb4] font-[600]">Monthly Billing</div>
+      <label class="switch">
+        <input type="checkbox" title="toggle">
+        <span class="slider round"></span>
+      </label>
+      <div class="text-[#9c9fb4] font-[600]">Yearly Billing </div>
+      <div class="bg-[#fdebe7] text-center rounded-xl w-14 text-[#f98d70] font-[800]">-25%</div>
+    </div>
+    <div class="flex flex-col min-[550px]:flex-row">
+      <div class="flex flex-col max-[550px]:place-items-center gap-2">
+        <p
+          class="before:content-[url(images/icon-check.svg)] before:scale-[1.8] before:inline-block before:mr-2 text-[#888b9b] font-[600]">
+          Unlimited
+          websites</p>
+        <p
+          class="before:content-[url(images/icon-check.svg)] before:scale-[1.8] before:inline-block before:mr-2 text-[#888b9b] font-[600]">
+          100%
+          data
+          ownership</p>
+        <p
+          class="before:content-[url(images/icon-check.svg)] before:scale-[1.8] before:inline-block before:mr-2 text-[#888b9b] font-[600]">
+          Email
+          reports
+
+      </div>
+      </p>
+      <button type="button"
+        class="my-6 bg-[#293356] text-[#becbf5] hover:text-[#fbffff] font-[800] w-[11rem] h-[3rem] rounded-full mx-auto min-[550px]:mr-[3%]">Start
+        my
+        trial</button>
+    </div>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
