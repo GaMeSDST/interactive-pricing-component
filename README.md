@@ -10,8 +10,8 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL](https://gamesdst.github.io/advice-generator/)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactiepricingcomponent-with-html-tailwind-css-and-js-vPWwO1reW-)
+- [Live Site URL](https://gamesdst.github.io/interactive-pricing-component/)
 
 ### Built with
 
